@@ -108,6 +108,7 @@ html {
     margin-right: 130px;
     border-color: var(--baseColor);
     border-radius: 50%;
+    transform: rotate(45deg);
     
 }
  
