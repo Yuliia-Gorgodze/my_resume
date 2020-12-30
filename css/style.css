@@ -230,12 +230,14 @@ html {
         flex-direction: column;
         min-width: 300px;
         margin-right: 0;
+        
     }
 }
 .text_inf-r{
     padding-top: 10px;
     max-width: 350px;
-
+    padding-left: 10px;
+    padding-right: 10px;
    
 }
 .curent{
@@ -246,7 +248,11 @@ html {
     font-weight: 400;
     color: var(--text-color);
     margin-bottom: 15px;
-    
+}
+@media screen and (min-width: 768px){
+    .resume_items{
+        margin-left: 50px;
+    }
 }
 .resume_skils:last-child{
   margin-bottom: 0;
