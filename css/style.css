@@ -527,10 +527,7 @@ border: none;
     .resume_container{
         flex-direction: column;
     }
-    .r_center{
-        margin-right: auto;
-        margin-left: auto;
-    }
+    
     .about-me, .work, .education{
         max-width: 150px;
     }
