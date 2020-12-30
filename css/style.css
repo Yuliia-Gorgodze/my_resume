@@ -219,8 +219,8 @@ html {
     display: flex;
     margin-bottom: 15px;
     margin-right: 50px;
-    max-width: 300px;
-    min-width: 600px;
+   width: 100%;
+    
     padding-top: 20px;
     padding-bottom: 10px;
     border-top: 1px solid rgba(139, 139, 139, 1);
@@ -228,6 +228,8 @@ html {
 @media screen and (max-width: 768px ){
     .about-me, .work, .education{
         flex-direction: column;
+        min-width: 300px;
+        margin-right: 0;
     }
 }
 .text_inf-r{
